@@ -1,0 +1,62 @@
+
+* {
+    border: none;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+html,
+body {
+    height: 100%
+}
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(80, 69, 149, 0.85);
+    color: #fff;
+}
+
+h1{
+    font-size: 50px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 50px;
+
+}
+
+h2{
+    font-size: 35px;
+    margin-top: 30px;
+    text-align: center;
+    color: #d94a4a;
+
+}
+
+#team {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#team img {
+    width: 300px;
+    height: 300px;
+    /* float: left; */
+    margin-top: 120px;
+    margin-left: 40px;
+}
+
+#intro {
+    margin-top: 150px;
+    margin-left: 50px;
+}
+
+ul li {
+    list-style-type: none;
+    font-size: 20px;
+    line-height: 40px;
+}
+
